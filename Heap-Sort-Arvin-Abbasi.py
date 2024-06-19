@@ -24,7 +24,7 @@ def heap_sort(arr):
         heapify(arr, i, 0)
 
 if __name__ == "__main__":
-    input_str = input("Please enter a list of numbers (separate the numbers with spaces): ")
+    input_str = input("Please enter a list of numbers: ")
     arr = list(map(int, input_str.split()))
 
     print("List before sorting:")
